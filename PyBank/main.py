@@ -58,12 +58,6 @@ with open(budget_csv, 'r') as csv_file:
 # Calculate the average outside the loop so it can go through the entire loop
 average_change = round(sum(changes) / len(changes), 2)
 
-#Calculate the greatest increase in profits
-greatest_increase = max(changes)
-
-# Calculate the greatest decrease in profits
-greatest_decrease = min(changes)
-
 print("Financial Analysis")
 
 print("------------------------------")
